@@ -30,3 +30,7 @@ height: 100vh;
     position: absolute;
     color: white;
 }
+.portfolio img{
+    width: 250px;
+    padding-top:10px ;
+}
