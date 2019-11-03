@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+body {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+.home{
+    
+    background-image: url("../IP3/assets/backgrounds/h_img.jpg");
+height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my_container{
+    margin-top: 30vh;
+    position: absolute;
+    color: white;
+}
