@@ -1,6 +1,4 @@
-var design =document.getElementById("designtxt")
-var dev=document.getElementById("devtxt")
-var prod=document.getElementById("prodtxt")
+
 
 $("#designimg").click(function(){
     $(this).hide()
@@ -20,6 +18,26 @@ $("#prodimg").click(function(){
     $(this). hide()
     $("#prodtxt").removeClass("prodtxt")
 })
+
+$("#designtxt").click(function(){
+    $("#designimg").show()
+    $("#designtxt").addClass("designtxt");
+    
+})
+
+
+$("#devtxt").click(function(){
+    $("#devimg").show()
+    $("#devtxt").addClass("devtxt");
+    
+})
+
+$("#prodtxt").click(function(){
+    $("#prodimg").show()
+    $("#prodtxt").addClass("prodtxt");
+    
+})
+
 
 
 
