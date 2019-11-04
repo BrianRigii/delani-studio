@@ -65,3 +65,12 @@ body {
 .iconrow{
     margin-left: 10vh;
 }
+.designtxt{
+ display: none ;
+}
+.devtxt{
+    display: none ; 
+}
+.prodtxt{
+    display: none;
+}
