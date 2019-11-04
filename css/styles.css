@@ -9,7 +9,7 @@ body {
 .home{
     
     background-image: url("../IP3/assets/backgrounds/h_img.jpg");
-height: 100vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -33,4 +33,16 @@ height: 100vh;
 .portfolio img{
     width: 250px;
     padding-top:10px ;
+}
+
+.contact-section{
+    background-image: url("../IP3/assets/backgrounds/c_image.jpg");
+    height: 100vh;
+}
+.lecont {
+    position: absolute;
+}
+.text input{
+    height: 150px;
+    background: rgba(0, 0,0,0.3);
 }
